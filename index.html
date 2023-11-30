@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sawan- Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(13, 13, 36);
+        height: 80px;
+      }
+      .left{
+        font-size: 2.2rem;
+      }
+      nav ul{
+        display: flex;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0px 23px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color:rgb(192, 202, 211)
+      }
+      nav ul li a:hover{
+        cursor: grab;
+        font-size: 1.02rem;
+      }
+      .firstsection{
+        display:flex;
+        justify-content: space-around;
+        margin: 23px 0;
+      }
+      .leftsection{
+        height: fit-content;
+        width:50%;
+        font-size: 1.4rem;
+        margin: 88px 0 0 120px;
+      }
+      .name{
+        font-size: 2.5rem;
+        color: rgb(154, 154, 180);
+      }
+      #element{
+        font-size: 2rem;
+        color: rgb(169, 169, 228);
+      }
+      .rightsection{
+        width: 50%;
+        margin: 40px 100px;
+      }
+      .rightsection img{
+        width: 100%;
+      }
+      .line-container{
+        display: flex;
+      }
+      .v-line{
+        
+        border: .01px solid rgb(97, 163, 218);
+        height: 75px;
+        width: 0.01px;
+        margin-top: -60px;
+        margin-left: 148.5px;
+        margin-bottom: 40px;
+        
+      }
+      .down-line-info{
+        display: flex;
+        gap: 75px;
+        
+      }
+      .one-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .skillset{
+        margin-top: 200px;
+        margin-bottom: 40px;
+        margin-left: 200px;
+        margin-right: 200px;
+        color: rgb(209, 181, 138);
+      }
+      .skill-meter {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    .skill-label {
+      margin-bottom: 5px;
+    }
+
+    .meter {
+      height: 20px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 100%;
+      width: 0;
+      background-color: #4caf50;
+      border-radius: 5px;
+      transition: width 1s ease-in-out;
+    }
+    .table{
+      margin: 55px 140px 0px 140px;
+      width:80%;
+      text-align: centre;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #ec5353;
+    }
+    .footer{
+      display:flex;
+      justify-content: space-between;
+      height: 125px;
+      background-color: rgb(65, 71, 85);
+      margin-top: 35px;
+    }
+    .firstfooter{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 40px 0 30px 90px;
+    }
+    .secondfooter{
+      margin: 65px 140px;
+      display: flex;
+
+      gap: 20px;
+      height: 25px;
+    }
+    
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sawan's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Blogs</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection"> Hi, My name is <span class="name">Sawan Kumar</span><br>
+              and I am a passionate and creative <br><span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="frontimages.jpeg" alt="tap to reload">
+            </div>
+        </section>
+        <hr style="margin: 45px 85px; border: 0; background-color: rgb(33, 59, 80); height: 0.2px;">
+        <section class="secondsection">
+          <div style="margin: 0 85px; font-size: 10px;"><i>What I have done so far</i><div style="font-size: 23px;">Milestones &amp; Achievements</div></div>
+          <hr style="margin: 60px 125px; border: 0; background-color: rgb(97, 163, 218); height: 0.5px;">
+          <div class="line-container">
+            <div>
+              <div class="v-line">
+                <div class="one-info" style="padding-top: 85px;" >
+                  <div style="font-size: 10px;">(2006)</div>
+                  <div style="font-size: 12px; color: rgb(147, 147, 156);">Matriculation, CBSE</div>
+                  <div style="font-size: 14px;">Holy Mission High School, Samastipur</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="v-line">
+                <div class="one-info" style="padding-top: 85px;" >
+                  <div style="font-size: 10px;">(2006-08)</div>
+                  <div style="font-size: 12px;color: rgb(147, 147, 156)">Intermediate, CBSE</div>
+                  <div style="font-size: 14px;">Navyug Vidyalaya, Bhagalpur</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="v-line">
+                <div class="one-info" style="padding-top: 85px;" >
+                  <div style="font-size: 10px;">(2010-12)</div>
+                  <div style="font-size: 12px;color: rgb(147, 147, 156)">Graduation, Math Hons.</div>
+                  <div style="font-size: 14px;">Thiruvalluvar University,  Tamilnadu</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="v-line">
+                <div class="one-info" style="padding-top: 85px;" >
+                  <div style="font-size: 10px;">(2012-15)</div>
+                  <div style="font-size: 12px;color: rgb(147, 147, 156)">DEO</div>
+                  <div style="font-size: 14px;">No Broker, Bengaluru</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="v-line">
+                <div class="one-info" style="padding-top: 85px;" >
+                  <div style="font-size: 10px;">(2017-19)</div>
+                  <div style="font-size: 12px;color: rgb(147, 147, 156)">Associate Clerk</div>
+                  <div style="font-size: 14px;">State Bank of India, Madhepura</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="v-line">
+                <div class="one-info" style="padding-top: 85px;" >
+                  <div style="font-size: 10px;">(2019-20)</div>
+                  <div style="font-size: 12px;color: rgb(147, 147, 156)">Android</div>
+                  <div style="font-size: 14px;">Palle Technologies, Bengaluru</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="v-line">
+                <div class="one-info" style="padding-top: 85px;" >
+                  <div style="font-size: 10px;">(2020-22)</div>
+                  <div style="font-size: 12px;color: rgb(147, 147, 156)">Graduation, BSc(CS)</div>
+                  <div style="font-size: 14px;">Himalayan University, Itanagar, Arunachal Pradesh</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="v-line">
+                <div class="one-info" style="padding-top: 85px;" >
+                  <div style="font-size: 10px;">(2022-23)</div>
+                  <div style="font-size: 12px;color: rgb(147, 147, 156)">Frontend Development</div>
+                  <div style="font-size: 14px;">AccioJob, Gurugram</div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="v-line">
+                <div class="one-info" style="padding-top: 85px;" >
+                  <div style="font-size: 10px;">(2023-present)</div>
+                  <div style="font-size: 12px;color: rgb(147, 147, 156)">Backend Development</div>
+                  <div style="font-size: 14px;">AccioJob, Gurugram</div>
+                </div>
+              </div>
+            </div>
+                
+          </div> 
+        </section>
+        <hr style="margin: 200px 85px; border: 0; background-color: rgb(33, 59, 80); height: 0.2px;">
+        <section class="thirdsection">
+          <div style="margin: -150px 85px; font-size: 10px;"><i>What expertise I have gained</i><div style="font-size: 23px;">Skills &amp; Mastery</div></div>
+          <div class="skillset">
+            <div class="skill-meter">
+            <div class="skill-label">HTML</div>
+            <div class="meter">
+              <div class="progress" style="width: 90%;"></div>
+            </div>
+          </div>
+        
+          <div class="skill-meter">
+            <div class="skill-label">CSS</div>
+            <div class="meter">
+              <div class="progress" style="width: 75%;"></div>
+            </div>
+          </div>
+        
+          <div class="skill-meter">
+            <div class="skill-label">JavaScript</div>
+            <div class="meter">
+              <div class="progress" style="width: 85%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-meter">
+            <div class="skill-label">React JS</div>
+            <div class="meter">
+              <div class="progress" style="width: 78%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-meter">
+            <div class="skill-label">DSA</div>
+            <div class="meter">
+              <div class="progress" style="width: 60%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-meter">
+            <div class="skill-label">SQL</div>
+            <div class="meter">
+              <div class="progress" style="width: 65%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-meter">
+            <div class="skill-label">Maths &amp; Analytical Thinking</div>
+            <div class="meter">
+              <div class="progress" style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-meter">
+            <div class="skill-label">Team work &amp; Communication</div>
+            <div class="meter">
+              <div class="progress" style="width: 85%;"></div>
+            </div>
+          </div>
+          </div> 
+        </section>
+        <hr style="margin: 100px 85px 0 85px; border: 0; background-color: rgb(33, 59, 80); height: 0.2px;">
+        <section class="fourthsection">
+          <div style="margin: 60px 85px; font-size: 10px;"><i>What Apps I have created</i><div style="font-size: 23px;">Projects &amp; Coursework</div></div>
+          <div class="table">
+          <table>
+            <thead>
+              <tr>
+                <th>Serial No</th>
+                <th>App Name</th>
+                <th>Tech-Stacks Used</th>
+                <th>Relevant Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td>Typing Test</td>
+                <td>React.js, Redux</td>
+                <td><a href="https://github.com/yourusername/react-typing-test" target="_blank">Click here</a></td>
+              </tr>
+              <tr>
+                <th>2</th>
+                <td>YouTube Clone</td>
+                <td>HTML, CSS, JS</td>
+                <td><a href="https://github.com/yourusername/your-app" target="_blank">Click here</a></td>
+              </tr>
+              <tr>
+                <th>3</th>
+                <td>MovieZilla</td>
+                <td>React.js, APIs</td>
+                <td><a href="https://github.com/yourusername/another-app" target="_blank">Click here</a></td>
+              </tr>
+              <tr>
+                <th>4</th>
+                <td>Snake Game</td>
+                <td>Spring, Java</td>
+                <td><a href="https://github.com/yourusername/one-more-app" target="_blank">Click here</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <p>P.S.- Functionalities like <i style="color: #a4e4a6;">theme switching</i>, <i style="color: #a4e4a6;">infinite scrolling</i>, <i style="color: #a4e4a6;">conditional rendering</i>, etc. are used.</p>
+          </div>
+
+        </section>
+        <footer class="footer">
+          <div class="firstfooter">
+            <div>Visit me at sawan@lazyloader.in</div>
+            <div>Copyright &copy; 1990-2100 by Refsnes Data | All Rights Reserved.</div>
+          </div>
+          <div class="secondfooter">
+            <img src="facebook.svg">
+            <img src="github.svg">
+            <img src="linkedin.svg">
+            <img src="discord.svg">
+          </div>
+          
+        </footer>
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['<i>Frontend Web Developer</i>.'],//, '&amp; a coding enthusiast],//
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+  
+</html>
